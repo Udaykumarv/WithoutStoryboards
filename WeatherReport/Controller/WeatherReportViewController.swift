@@ -13,7 +13,7 @@ private let degreeSymbol = "\u{00B0}" + "C"
 class WeatherReportViewController: UIViewController {
 
     var weatherInfo: WeatherInfo?
-    var countryNamesList = ["London", "Hurzuf", "Holubynka", "Karow", "Vavibet", "Kathmandu", "Birim", "Vinogradovo", "Alupka", "Tyuzler", "Yurevichi", "India" ]
+    var countryNamesList = ["London", "Hurzuf", "Holubynka", "Karow", "Vavibet", "Kathmandu", "Birim", "Vinogradovo", "Alupka", "Tyuzler", "Yurevichi", "India", "Sri Lanka" ]
     
     let countryNameLabel: UILabel = {
         let label = UILabel()
