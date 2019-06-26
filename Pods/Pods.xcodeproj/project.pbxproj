@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8B69EF1B3C902209885D2E516CC5427E /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				AAAF8DBEC5B859DBF7763CAABE58A437 /* PBXTargetDependency */,
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0109B052C285F8282FB84AF1C6179CE2 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2E342560FA3BD266B4299CDFB5526F1D /* zh-Hant.lproj */; };
+		21371C5FB3B88812BD5B3C43C89026A0 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3889A50780BCF63C228C0F8C8EBD465C /* tr.lproj */; };
+		2D5D3F497E80F97BB46F675CC1883752 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B32C2A187597DFEE1447D93D4BDCE /* zh-Hans.lproj */; };
+		34315C9D9D6F1CA125009940AA07E0F4 /* Pods-WeatherReport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D154CF6D6D68B3A2D82865A568F3840E /* Pods-WeatherReport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C4A09FFAEA31FF7EB6A776075DC1AC /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EC7F1D00D04BB1BFB87C12B92A2E77DE /* ko.lproj */; };
+		70F60B4BEC1A0A595FF6219485D2338E /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5E6CE01AEB27E922916B73EA582FB137 /* ru.lproj */; };
+		737084503B94B53AD3825172A3C8690A /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6F959420D05C6156C71819878EEA5A32 /* es.lproj */; };
+		83B967FF67993598DDEC2E7AC8D6C75A /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8023F0EFB78D4498828BCBFC81100E7A /* fr.lproj */; };
+		A25B6498F8E72B39CFCD7605C8E19823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C470442145B8F342A5031AEDD695ED98 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9FF429B885FDC0F8F801D2F791B7A695 /* cs.lproj */; };
+		CBA9D8DA30631FE89D8009665EA3F41A /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FD0DB831B6EF1BA43BF2070241519A12 /* en.lproj */; };
+		D1D55AE311D472DD2C12704F0C71BE7E /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2D5D37C6566A73A01FDFEEA00F6850EC /* it.lproj */; };
+		D2D682DBC52480D18015C4DF1EC3BBE3 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DC1ED4DF5A50E77AF255ADC0EFD307DD /* pl.lproj */; };
+		D909CF37AFFA8AD0D0115AB252425FDC /* Pods-WeatherReport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CF600CE06FB1B937237BCAA37D7A65 /* Pods-WeatherReport-dummy.m */; };
+		E5BAFB1B7A942C0EA456B6BC486CAFFB /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C3683EB58569FEEF4FFBC6F9066AB90E /* pt.lproj */; };
+		E99C44B688054E2CB9C66F12AEBD6D20 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B5A13A1A50252016BB440E3DA860D84F /* ja.lproj */; };
+		FCE8DAE5CEB378130EF9B628202F0F04 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 39E1C1D54500FDCADB1E6FB795BEE671 /* de.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72A03A07BD84B0DA894FCE5122CCCF75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		F78AD96C7F65B37D3FCA6D5B27E154AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD9915FE83842AE0201096155515772;
+			remoteInfo = "AppCenter-AppCenterDistributeResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B0B68281B2EC35FF7AD1911C009605 /* Pods-WeatherReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherReport.debug.xcconfig"; sourceTree = "<group>"; };
+		10CF600CE06FB1B937237BCAA37D7A65 /* Pods-WeatherReport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherReport-dummy.m"; sourceTree = "<group>"; };
+		1C1B32C2A187597DFEE1447D93D4BDCE /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/zh-Hans.lproj"; sourceTree = "<group>"; };
+		2D5D37C6566A73A01FDFEEA00F6850EC /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/it.lproj"; sourceTree = "<group>"; };
+		2E342560FA3BD266B4299CDFB5526F1D /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/zh-Hant.lproj"; sourceTree = "<group>"; };
+		2E6B8B40FDD99D45F4F9CAA77CC44349 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		340D567FD3EB263FA02E7973DEFD0BE2 /* Pods-WeatherReport-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherReport-acknowledgements.plist"; sourceTree = "<group>"; };
+		3516676EE71AB99E3E7E45ACD109998A /* AppCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterDistribute.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterDistribute.framework"; sourceTree = "<group>"; };
+		3889A50780BCF63C228C0F8C8EBD465C /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/tr.lproj"; sourceTree = "<group>"; };
+		394DC310E65ED9F7CAD67A7E095CF449 /* Pods-WeatherReport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherReport.modulemap"; sourceTree = "<group>"; };
+		39E1C1D54500FDCADB1E6FB795BEE671 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/de.lproj"; sourceTree = "<group>"; };
+		3C87E0AA3BB73445DA9B5C4AB22375E3 /* Pods-WeatherReport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherReport-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E6CE01AEB27E922916B73EA582FB137 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/ru.lproj"; sourceTree = "<group>"; };
+		6F959420D05C6156C71819878EEA5A32 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/es.lproj"; sourceTree = "<group>"; };
+		7DA55ECEDE3309DC238C63ECEB3591BF /* Pods-WeatherReport-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherReport-Info.plist"; sourceTree = "<group>"; };
+		8023F0EFB78D4498828BCBFC81100E7A /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/fr.lproj"; sourceTree = "<group>"; };
+		82CE50659B545BA3B22F6C4FCB7D9498 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3F406CDEB2E7CA45DE8BD3A1ED8466 /* Pods-WeatherReport-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherReport-resources.sh"; sourceTree = "<group>"; };
+		9FF429B885FDC0F8F801D2F791B7A695 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/cs.lproj"; sourceTree = "<group>"; };
+		A7E62D5D628E163A49A98DDB08028D8E /* AppCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.xcconfig; sourceTree = "<group>"; };
+		AAAC2165E7FF2F1BEE917EC3C163C37B /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		B5A13A1A50252016BB440E3DA860D84F /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/ja.lproj"; sourceTree = "<group>"; };
+		BB73F660F959B22D2053B8685D1B36A4 /* ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist"; sourceTree = "<group>"; };
+		C3683EB58569FEEF4FFBC6F9066AB90E /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/pt.lproj"; sourceTree = "<group>"; };
+		CAAA7C2865C37FCB6CCF6198453E7A08 /* Pods-WeatherReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherReport.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D154CF6D6D68B3A2D82865A568F3840E /* Pods-WeatherReport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherReport-umbrella.h"; sourceTree = "<group>"; };
+		D70A41911339F7857EF81AF43AAA6CFE /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterPush.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterPush.framework"; sourceTree = "<group>"; };
+		DC1ED4DF5A50E77AF255ADC0EFD307DD /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/pl.lproj"; sourceTree = "<group>"; };
+		DD00FCD49E83443745C5E103398ABF55 /* AppCenterDistributeResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AppCenterDistributeResources.bundle; path = "AppCenter-AppCenterDistributeResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7F1D00D04BB1BFB87C12B92A2E77DE /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/ko.lproj"; sourceTree = "<group>"; };
+		F554EB3E6F0FEF8DF6EF0A07CD7AE3EA /* Pods_WeatherReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeatherReport.framework; path = "Pods-WeatherReport.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0DB831B6EF1BA43BF2070241519A12 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle/en.lproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D94F1F37F38C62775880AF241D46BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF3BA311B08A0C8737B2526BD3F2390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25B6498F8E72B39CFCD7605C8E19823 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180591322898410C05B3955E29630E08 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				532225A73EDFEFC93A5EE50696E44280 /* Analytics */,
+				8044766B92594D64BBE822F534928A6D /* Core */,
+				409F429B0625C0C4867E4CFC30AB4C4D /* Crashes */,
+				27D804E82859049A474BFF0062CA663E /* Distribute */,
+				5994EBE905C0E05086841D5F6DE66E00 /* Push */,
+				762D9D0BB2F18AFCABF83102578288C2 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		27D804E82859049A474BFF0062CA663E /* Distribute */ = {
+			isa = PBXGroup;
+			children = (
+				81E7E285C1335FFC64E9AE8DA30CE4C4 /* Frameworks */,
+				74D0AA65A896497E1D6AF7E1AE2BFA26 /* Resources */,
+			);
+			name = Distribute;
+			sourceTree = "<group>";
+		};
+		3E28F60987166F4250F49C697E7CBECC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				180591322898410C05B3955E29630E08 /* AppCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		409F429B0625C0C4867E4CFC30AB4C4D /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				67D8B2163644F6E400397A00AC95433E /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		4CCFD1683F4CAE08A418A9A7263D5BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D70A41911339F7857EF81AF43AAA6CFE /* AppCenterPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		532225A73EDFEFC93A5EE50696E44280 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				910DDA3060CCDFD8BD260256FA145967 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		5994EBE905C0E05086841D5F6DE66E00 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				4CCFD1683F4CAE08A418A9A7263D5BC8 /* Frameworks */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		67D8B2163644F6E400397A00AC95433E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B8B40FDD99D45F4F9CAA77CC44349 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70A0DA6FC9E1ABC6CA3473CF37B93D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CE50659B545BA3B22F6C4FCB7D9498 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74D0AA65A896497E1D6AF7E1AE2BFA26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FF429B885FDC0F8F801D2F791B7A695 /* cs.lproj */,
+				39E1C1D54500FDCADB1E6FB795BEE671 /* de.lproj */,
+				FD0DB831B6EF1BA43BF2070241519A12 /* en.lproj */,
+				6F959420D05C6156C71819878EEA5A32 /* es.lproj */,
+				8023F0EFB78D4498828BCBFC81100E7A /* fr.lproj */,
+				2D5D37C6566A73A01FDFEEA00F6850EC /* it.lproj */,
+				B5A13A1A50252016BB440E3DA860D84F /* ja.lproj */,
+				EC7F1D00D04BB1BFB87C12B92A2E77DE /* ko.lproj */,
+				DC1ED4DF5A50E77AF255ADC0EFD307DD /* pl.lproj */,
+				C3683EB58569FEEF4FFBC6F9066AB90E /* pt.lproj */,
+				5E6CE01AEB27E922916B73EA582FB137 /* ru.lproj */,
+				3889A50780BCF63C228C0F8C8EBD465C /* tr.lproj */,
+				1C1B32C2A187597DFEE1447D93D4BDCE /* zh-Hans.lproj */,
+				2E342560FA3BD266B4299CDFB5526F1D /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		762D9D0BB2F18AFCABF83102578288C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7E62D5D628E163A49A98DDB08028D8E /* AppCenter.xcconfig */,
+				BB73F660F959B22D2053B8685D1B36A4 /* ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		7BAFD70EA4FB03112383199EEDBE2404 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77C8180BD3BE247D94C08C61DE7AC1A /* Pods-WeatherReport */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8044766B92594D64BBE822F534928A6D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				70A0DA6FC9E1ABC6CA3473CF37B93D2D /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		81E7E285C1335FFC64E9AE8DA30CE4C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3516676EE71AB99E3E7E45ACD109998A /* AppCenterDistribute.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		910DDA3060CCDFD8BD260256FA145967 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAAC2165E7FF2F1BEE917EC3C163C37B /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		991A0E6DC4335C8C1DFD13A99BF6D01B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD00FCD49E83443745C5E103398ABF55 /* AppCenterDistributeResources.bundle */,
+				F554EB3E6F0FEF8DF6EF0A07CD7AE3EA /* Pods_WeatherReport.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C77C8180BD3BE247D94C08C61DE7AC1A /* Pods-WeatherReport */ = {
+			isa = PBXGroup;
+			children = (
+				394DC310E65ED9F7CAD67A7E095CF449 /* Pods-WeatherReport.modulemap */,
+				3C87E0AA3BB73445DA9B5C4AB22375E3 /* Pods-WeatherReport-acknowledgements.markdown */,
+				340D567FD3EB263FA02E7973DEFD0BE2 /* Pods-WeatherReport-acknowledgements.plist */,
+				10CF600CE06FB1B937237BCAA37D7A65 /* Pods-WeatherReport-dummy.m */,
+				7DA55ECEDE3309DC238C63ECEB3591BF /* Pods-WeatherReport-Info.plist */,
+				9E3F406CDEB2E7CA45DE8BD3A1ED8466 /* Pods-WeatherReport-resources.sh */,
+				D154CF6D6D68B3A2D82865A568F3840E /* Pods-WeatherReport-umbrella.h */,
+				04B0B68281B2EC35FF7AD1911C009605 /* Pods-WeatherReport.debug.xcconfig */,
+				CAAA7C2865C37FCB6CCF6198453E7A08 /* Pods-WeatherReport.release.xcconfig */,
+			);
+			name = "Pods-WeatherReport";
+			path = "Target Support Files/Pods-WeatherReport";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3E28F60987166F4250F49C697E7CBECC /* Pods */,
+				991A0E6DC4335C8C1DFD13A99BF6D01B /* Products */,
+				7BAFD70EA4FB03112383199EEDBE2404 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F1F725DA01F2EB475833B8C474057D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34315C9D9D6F1CA125009940AA07E0F4 /* Pods-WeatherReport-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C7FA83CD1607409EAD797BD695C020CC /* Pods-WeatherReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D61482D013552922B8011E7A208F4D /* Build configuration list for PBXNativeTarget "Pods-WeatherReport" */;
+			buildPhases = (
+				0F1F725DA01F2EB475833B8C474057D2 /* Headers */,
+				9536A3CB3CA57FF555471DCA691EBBE2 /* Sources */,
+				4CF3BA311B08A0C8737B2526BD3F2390 /* Frameworks */,
+				244BEFE23F3AEFF487D3B78D018DF18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C364AFF91C897262E6E9323682C1CC /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherReport";
+			productName = "Pods-WeatherReport";
+			productReference = F554EB3E6F0FEF8DF6EF0A07CD7AE3EA /* Pods_WeatherReport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCD9915FE83842AE0201096155515772 /* AppCenter-AppCenterDistributeResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CC3FBF386CAD7440E4B1E1F6DEC4BB /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterDistributeResources" */;
+			buildPhases = (
+				0A157B1787210C01B2C4F180E5A552D7 /* Sources */,
+				3D94F1F37F38C62775880AF241D46BD4 /* Frameworks */,
+				E1AFC0E69F55136B15BBD6B46F93CB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppCenter-AppCenterDistributeResources";
+			productName = "AppCenter-AppCenterDistributeResources";
+			productReference = DD00FCD49E83443745C5E103398ABF55 /* AppCenterDistributeResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 991A0E6DC4335C8C1DFD13A99BF6D01B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				FCD9915FE83842AE0201096155515772 /* AppCenter-AppCenterDistributeResources */,
+				C7FA83CD1607409EAD797BD695C020CC /* Pods-WeatherReport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244BEFE23F3AEFF487D3B78D018DF18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AFC0E69F55136B15BBD6B46F93CB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C470442145B8F342A5031AEDD695ED98 /* cs.lproj in Resources */,
+				FCE8DAE5CEB378130EF9B628202F0F04 /* de.lproj in Resources */,
+				CBA9D8DA30631FE89D8009665EA3F41A /* en.lproj in Resources */,
+				737084503B94B53AD3825172A3C8690A /* es.lproj in Resources */,
+				83B967FF67993598DDEC2E7AC8D6C75A /* fr.lproj in Resources */,
+				D1D55AE311D472DD2C12704F0C71BE7E /* it.lproj in Resources */,
+				E99C44B688054E2CB9C66F12AEBD6D20 /* ja.lproj in Resources */,
+				40C4A09FFAEA31FF7EB6A776075DC1AC /* ko.lproj in Resources */,
+				D2D682DBC52480D18015C4DF1EC3BBE3 /* pl.lproj in Resources */,
+				E5BAFB1B7A942C0EA456B6BC486CAFFB /* pt.lproj in Resources */,
+				70F60B4BEC1A0A595FF6219485D2338E /* ru.lproj in Resources */,
+				21371C5FB3B88812BD5B3C43C89026A0 /* tr.lproj in Resources */,
+				2D5D3F497E80F97BB46F675CC1883752 /* zh-Hans.lproj in Resources */,
+				0109B052C285F8282FB84AF1C6179CE2 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A157B1787210C01B2C4F180E5A552D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9536A3CB3CA57FF555471DCA691EBBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D909CF37AFFA8AD0D0115AB252425FDC /* Pods-WeatherReport-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C364AFF91C897262E6E9323682C1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 72A03A07BD84B0DA894FCE5122CCCF75 /* PBXContainerItemProxy */;
+		};
+		AAAF8DBEC5B859DBF7763CAABE58A437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppCenter-AppCenterDistributeResources";
+			target = FCD9915FE83842AE0201096155515772 /* AppCenter-AppCenterDistributeResources */;
+			targetProxy = F78AD96C7F65B37D3FCA6D5B27E154AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		42E2419F0C8422368CC1BF39C22D98D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E62D5D628E163A49A98DDB08028D8E /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4874090C397366FA5AF69DA8E4A210CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E62D5D628E163A49A98DDB08028D8E /* AppCenter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AppCenterDistributeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6AA57BD8854ABC4F7B0C4E1F41BE86BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAAA7C2865C37FCB6CCF6198453E7A08 /* Pods-WeatherReport.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherReport/Pods-WeatherReport-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherReport/Pods-WeatherReport.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B25D71E8EC6738B0CA6E1003E71130D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E62D5D628E163A49A98DDB08028D8E /* AppCenter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AppCenterDistributeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B8E98215217F03D957C055E3657EDFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B0B68281B2EC35FF7AD1911C009605 /* Pods-WeatherReport.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherReport/Pods-WeatherReport-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherReport/Pods-WeatherReport.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E359EE723C540CD461C1D14A14EB990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E62D5D628E163A49A98DDB08028D8E /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B69EF1B3C902209885D2E516CC5427E /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E2419F0C8422368CC1BF39C22D98D1 /* Debug */,
+				E359EE723C540CD461C1D14A14EB990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D61482D013552922B8011E7A208F4D /* Build configuration list for PBXNativeTarget "Pods-WeatherReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E98215217F03D957C055E3657EDFB9 /* Debug */,
+				6AA57BD8854ABC4F7B0C4E1F41BE86BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CC3FBF386CAD7440E4B1E1F6DEC4BB /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterDistributeResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4874090C397366FA5AF69DA8E4A210CB /* Debug */,
+				B25D71E8EC6738B0CA6E1003E71130D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
+import AppCenterPush
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MSAppCenter.start("0acd5f00-a505-4a3a-ab60-58a023afe8cb", withServices:[
+            MSAnalytics.self,
+            MSCrashes.self,
+            MSPush.self
+            ])
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         

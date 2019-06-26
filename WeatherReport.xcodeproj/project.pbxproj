@@ -16,9 +16,11 @@
 		1476803A20540AB9003018FA /* WeatherReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476803620540AB9003018FA /* WeatherReportViewController.swift */; };
 		1476803C20540D49003018FA /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476803B20540D49003018FA /* WeatherInfo.swift */; };
 		1476803E20540F7A003018FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1476803D20540F7A003018FA /* Extensions.swift */; };
+		5B7D79F60C17180F7D9F3863 /* Pods_WeatherReport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E65C20AF7059A9A66FD33A /* Pods_WeatherReport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11BF18FDC899576BB7DF8B4B /* Pods-WeatherReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherReport.release.xcconfig"; path = "Target Support Files/Pods-WeatherReport/Pods-WeatherReport.release.xcconfig"; sourceTree = "<group>"; };
 		144853BC205303CA002ED5FC /* WeatherReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		144853BF205303CA002ED5FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		144853C6205303CA002ED5FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +32,8 @@
 		1476803620540AB9003018FA /* WeatherReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherReportViewController.swift; sourceTree = "<group>"; };
 		1476803B20540D49003018FA /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
 		1476803D20540F7A003018FA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		32A733D635FE143CC076DAA1 /* Pods-WeatherReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherReport.debug.xcconfig"; path = "Target Support Files/Pods-WeatherReport/Pods-WeatherReport.debug.xcconfig"; sourceTree = "<group>"; };
+		52E65C20AF7059A9A66FD33A /* Pods_WeatherReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7D79F60C17180F7D9F3863 /* Pods_WeatherReport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +53,8 @@
 			children = (
 				144853BE205303CA002ED5FC /* WeatherReport */,
 				144853BD205303CA002ED5FC /* Products */,
+				40D4E6BE38CCF820FC145233 /* Pods */,
+				408DA8713712C978438A81A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				1476802F20540AB8003018FA /* Model */,
-				1476803020540AB8003018FA /* View */,
 				1476803520540AB9003018FA /* Controller */,
 				1476803120540AB8003018FA /* HelperClasses */,
 				144853BF205303CA002ED5FC /* AppDelegate.swift */,
@@ -80,13 +86,6 @@
 				1476803B20540D49003018FA /* WeatherInfo.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1476803020540AB8003018FA /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		1476803120540AB8003018FA /* HelperClasses */ = {
@@ -108,6 +107,23 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		408DA8713712C978438A81A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52E65C20AF7059A9A66FD33A /* Pods_WeatherReport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40D4E6BE38CCF820FC145233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A733D635FE143CC076DAA1 /* Pods-WeatherReport.debug.xcconfig */,
+				11BF18FDC899576BB7DF8B4B /* Pods-WeatherReport.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 144853CE205303CA002ED5FC /* Build configuration list for PBXNativeTarget "WeatherReport" */;
 			buildPhases = (
+				B0B6E809969F98D0736D57A0 /* [CP] Check Pods Manifest.lock */,
 				144853B8205303CA002ED5FC /* Sources */,
 				144853B9205303CA002ED5FC /* Frameworks */,
 				144853BA205303CA002ED5FC /* Resources */,
+				42C3E7312C9C0CF9FF0EDA58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +191,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42C3E7312C9C0CF9FF0EDA58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherReport/Pods-WeatherReport-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherReport/Pods-WeatherReport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B6E809969F98D0736D57A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherReport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		144853B8205303CA002ED5FC /* Sources */ = {
@@ -312,17 +373,19 @@
 		};
 		144853CF205303CA002ED5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A733D635FE143CC076DAA1 /* Pods-WeatherReport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8C5P67PLD5;
+				DEVELOPMENT_TEAM = Q48A3Q9RLA;
 				INFOPLIST_FILE = WeatherReport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.frejun.goteso;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pelicon.visatracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9fa6a614-0eb1-4924-ae82-b8c2fe981904";
-				PROVISIONING_PROFILE_SPECIFIER = newdevforfrejun;
+				PROVISIONING_PROFILE_SPECIFIER = "Pelicon Adhoc Distribution";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -330,17 +393,19 @@
 		};
 		144853D0205303CA002ED5FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BF18FDC899576BB7DF8B4B /* Pods-WeatherReport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8C5P67PLD5;
+				DEVELOPMENT_TEAM = Q48A3Q9RLA;
 				INFOPLIST_FILE = WeatherReport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.frejun.goteso;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pelicon.visatracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9fa6a614-0eb1-4924-ae82-b8c2fe981904";
-				PROVISIONING_PROFILE_SPECIFIER = newdevforfrejun;
+				PROVISIONING_PROFILE_SPECIFIER = "Pelicon Adhoc Distribution";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
